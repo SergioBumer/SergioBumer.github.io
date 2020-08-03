@@ -39,6 +39,20 @@ h1 strong {
     height: 300px;
 }
 
+.project {
+    /* border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid yellow; */
+
+    /* border-color: red; */
+    /* border-top-color: blue;
+    border-width: 15px;
+    border-style: solid; */
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
 .project-details {
     width: 500px;
 }
