@@ -8,18 +8,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    color: white;
     font-family: 'Fjalla One', sans-serif;
     font-size: 40px;
-    line-height: 150%;
     letter-spacing: -0.2px;
+    line-height: 150%;
+
 }
 
-header {
-    background-color: #f5f5f5;
+h1 strong {
+    color: #026fff;   
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
 
 .hero {
-    height: auto;
+    background-color: #1b2127;
+    background-image: url("../images/foto.jpg");
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    height: 300px;
 }
 
 .project-details {
