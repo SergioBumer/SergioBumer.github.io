@@ -13,7 +13,7 @@ h1 {
     font-size: 40px;
     letter-spacing: -0.2px;
     line-height: 150%;
-
+    margin: 0 ;
 }
 
 h1 strong {
@@ -28,6 +28,10 @@ h1 strong {
 .header a {
     color: white;
     text-decoration: none;
+}
+
+.header ol {
+    margin: 0;
 }
 
 .hero {
@@ -52,8 +56,10 @@ h1 strong {
 
     border: 1px solid gray;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 .project-details {
+    margin: 10px 20px;
     width: 500px;
 }
 
